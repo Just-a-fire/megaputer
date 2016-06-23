@@ -1,10 +1,6 @@
 window.onload = function() {	
 	document.body.style.margin = '0';
-	// document.body.style.overflowX = 'hidden';
 }
-
-// TODO
-// сетка
 
 Object.prototype.draw = function() {	
 	if (this instanceof Array && this.length === 0 || Object.keys(this).length === 0) {
