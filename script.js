@@ -287,7 +287,7 @@ Object.prototype.draw = function() {
 		var parsed = parseInt(char, 10);
 		if (parsed > 0)
 			return parsed;
-		return char.charCodeAt(0) - 'a'.charCodeAt(0) + 1;
+		return char.toLowerCase().charCodeAt(0) - 'a'.charCodeAt(0) + 1;
 	}
 
 	function set_diagram_size(diagram) {
